@@ -33,4 +33,4 @@ function newFlight(req, res) {
       console.log(err)
       res.render('flights/new', { errorMsg: err.message })
     }
-}
+} 
